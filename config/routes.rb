@@ -1,19 +1,13 @@
 Be::Application.routes.draw do
-  get "pages/home"
 
-  get "pages/about"
-
-  get "pages/benefits"
-
-  get "pages/philosophy"
-
-  get "pages/testimonials"
-
-  get "pages/bio"
-
-  get "pages/contact"
-
-  get "pages/pregnancy"
+  match '/home', :to => 'pages#home'
+  match '/about', :to => 'pages#about'
+  match '/benefits', :to => 'pages#benefits'
+  match '/philosophy', :to => 'pages#philosophy'
+  match '/testimonials', :to => 'pages#testimonials'
+  match '/bio', :to => 'pages#bio'
+  match '/contact', :to => 'pages#contact'
+  match '/pregnancy', :to => 'pages#pregnancy'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -65,7 +59,7 @@ Be::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => "welcome#index"
-
+  root :to => "pages#home"
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
