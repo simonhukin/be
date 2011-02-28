@@ -18,6 +18,7 @@ gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 # gem 'ruby-debug19'
 
 # Bundle the extra gems:
+gem "RedCloth"
 # gem 'bj'
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'

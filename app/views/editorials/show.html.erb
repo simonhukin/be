@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @editorial.name %>
+</p>
+<p>
+  <b>Content:</b>
+  <%= raw @editorial.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_editorial_path(@editorial) %> |
+<%= link_to 'Back', editorials_path %>

@@ -9,9 +9,9 @@ body, html {
 
 /*Just visual styles*/
 body {
-	background:#fff;
-	font:12px verdana, sans-serif;
-	color:#000;
+	background:#eee;
+	font: 15px/1.2 Georgia,Verdana,Arial;
+	color: #333;
 	}
 
 /*Our full length header.
@@ -19,8 +19,15 @@ We align the text center so it shows up in the middle.
 If you prefer you could right or left align it.*/
 .header {
 	background:#fff;
-	padding:20px;
+	padding:20px 20px 0px 20px;
         height: 90px;
+        min-width: 960px;
+	}
+
+ .main {
+	background:#fff;
+	padding:20px;
+        min-width: 960px;
 	}
 
 /*Center Content*/
@@ -67,10 +74,36 @@ footer so it doesn't bunch the content up*/
   float: left;
 }
 
+#fb_footer img {
+    border: 0px;
+    float: right;
+    clear: both;
+}
+
+#fb_footer {
+    padding: 10px;
+    float: right;
+    clear: right;
+}
+
+#blog_footer {
+    padding: 10px;
+    float: left;
+    clear: left;
+    text-align: left;
+}
+
+#copy_footer {
+    padding: 10px;
+    float: left;
+    clear: left;
+}
+
 section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
+  color: #555
 }
 
 section h1 {
@@ -80,17 +113,17 @@ section h1 {
 /* Links */
 
 a {
-  color: #3aa49e;
+  color: #333;
   text-decoration: none;
 }
 
 a:hover {
-  color: #22625f;
+  color: #333;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #3aa49e;
+  color: #333;
 }
 
 
@@ -98,9 +131,11 @@ a:visited {
 
 .nav {
   background-color: white;
-  padding: 0 0.7em;
+  padding: 0.7em;
   white-space: nowrap;
   float: right;
+  clear: both;
+  margin-top: -40px;
 }
 
 .nav ul {
@@ -119,17 +154,30 @@ a:visited {
   font-weight: bold;
 }
 
-.nav ul li a:visited {
+#home_page a#home_nav, #about_page a#about_nav, #benefits_page a#benefits_nav,
+#philosophy_page a#philosophy_nav, #testimonials_page a#testimonials_nav,
+#bio_page a#bio_nav, #contact_page a#contact_nav, #pregnancy_page a#pregnancy_nav{
   color: #3aa49e;
+}
+
+
+.nav ul li a:visited {
+  color: #555;
 }
 
 .nav ul li a:hover {
   text-decoration: underline;
-  color: #22625f;
+  color: #555;
 }
 
-.footer ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0.2em 0;
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+th, td {
+    vertical-align: text-top;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 4px solid #AABCFE;
+    color: #003399;
+    padding: 8px;
 }

@@ -12,14 +12,13 @@
         <%= render 'layouts/header' %>
       </div>
     </div>
-    <!-- CENTER CONTENT -->
-    <div class="container">
-      <section>
-        <% flash.each do |key, value| %>
-          <div class="flash <%= key %>"><%= value %></div>
-        <% end %>
-        <%= yield %>
-      </section>
+    <div class="main">
+      <!-- CENTER CONTENT -->
+      <div class="container">
+        <section>
+          <%= yield %>
+        </section>
+      </div>
     </div>
     <!--CLEAR FOOTER TO PREVENT BUNCHING-->
     <div class="clear"></div>

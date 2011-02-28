@@ -1,5 +1,7 @@
 Be::Application.routes.draw do
 
+  resources :editorials
+
   match '/home', :to => 'pages#home'
   match '/about', :to => 'pages#about'
   match '/benefits', :to => 'pages#benefits'
