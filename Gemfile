@@ -20,6 +20,7 @@ gem 'sqlite3-ruby', '1.3.2', :group => :development
 # Bundle the extra gems:
 gem "RedCloth"
 gem 'heroku'
+gem 'taps'
 # gem 'bj'
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
