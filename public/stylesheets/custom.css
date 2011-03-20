@@ -154,6 +154,11 @@ a:visited {
   font-weight: bold;
 }
 
+.testimonials li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
 #home_page a#home_nav, #about_page a#about_nav, #benefits_page a#benefits_nav,
 #philosophy_page a#philosophy_nav, #testimonials_page a#testimonials_nav,
 #bio_page a#bio_nav, #contact_page a#contact_nav, #pregnancy_page a#pregnancy_nav{

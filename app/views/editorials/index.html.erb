@@ -6,7 +6,6 @@
     <th>Content</th>
     <th></th>
     <th></th>
-    <th></th>
   </tr>
 
 <% @editorials.each do |editorial| %>
@@ -15,7 +14,6 @@
     <td><%= raw editorial.content %></td>
     <td><%= link_to 'Show', editorial %></td>
     <td><%= link_to 'Edit', edit_editorial_path(editorial) %></td>
-    <td><%= link_to 'Destroy', editorial, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
