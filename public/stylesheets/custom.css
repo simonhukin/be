@@ -186,3 +186,28 @@ th, td {
     color: #003399;
     padding: 8px;
 }
+
+/* HOLDING PAGE */
+
+.holding{
+}
+
+.holding-h1{
+    color: #848589;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.holding-body{
+    color: #38a9a3;
+    margin-left: 15px;
+}
+
+.holding-buttons img{
+    margin-bottom: -5px;
+    margin-left: 15px;
+}
+
+.holding-buttons a{
+    text-decoration: none;
+}
