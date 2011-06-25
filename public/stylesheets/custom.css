@@ -9,9 +9,8 @@ body, html {
 
 /*Just visual styles*/
 body {
-	background:#eee;
 	font: 15px/1.2 Georgia,Verdana,Arial;
-	color: #333;
+	color: #818287;
 	}
 
 /*Our full length header.
@@ -39,7 +38,6 @@ If you prefer you could right or left align it.*/
 
 /*Full width footer*/
 .footer {
-	background:#eee;
 	padding:10px;
 	text-align:center;
 	}
@@ -101,29 +99,37 @@ footer so it doesn't bunch the content up*/
 
 section {
   margin-top: 1em;
-  font-size: 120%;
   padding: 20px;
-  color: #555
+  color: #818287;
 }
 
 section h1 {
-  font-size: 200%;
+  font-style: italic;
+  border-bottom: 2px dotted #ccc;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.main_sub_content p{
+    padding-left: 15px;
+    line-height: 25px;
 }
 
 /* Links */
 
 a {
-  color: #333;
+  color: #818287;
   text-decoration: none;
 }
 
 a:hover {
-  color: #333;
+  color: #3aa49e;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #333;
+  color: #818287;
 }
 
 
@@ -131,11 +137,14 @@ a:visited {
 
 .nav {
   background-color: white;
-  padding: 0.7em;
+  border-bottom: 2px dotted #ccc;
+  border-top: 2px dotted #ccc;
+  padding: 5px;
   white-space: nowrap;
   float: right;
   clear: both;
-  margin-top: -40px;
+  margin-top: -60px;
+  margin-right: 30px;
 }
 
 .nav ul {
@@ -147,11 +156,52 @@ a:visited {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
+  vertical-align: middle;
 }
 
 .nav ul li a {
   padding: 0 5px;
   font-weight: bold;
+  font-style: italic;
+  font-size: 17px;
+  color: #818287;
+}
+
+.nav-img{
+    padding: 0 !important;
+}
+
+.nav_footer {
+  background-color: white;
+  border-bottom: 2px dotted #ccc;
+  border-top: 2px dotted #ccc;
+  padding: 5px;
+  white-space: nowrap;
+  clear: both;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.nav_footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+  vertical-align: middle;
+}
+
+.nav_footer ul li a {
+  padding: 0 5px;
+  font-size: 15px;
+  color: #818287;
+}
+
+.developed_by{
+    padding: 20px;
 }
 
 .testimonials li {
@@ -159,20 +209,62 @@ a:visited {
   margin-bottom: 15px;
 }
 
-#home_page a#home_nav, #about_page a#about_nav, #benefits_page a#benefits_nav,
-#philosophy_page a#philosophy_nav, #testimonials_page a#testimonials_nav,
-#bio_page a#bio_nav, #contact_page a#contact_nav, #pregnancy_page a#pregnancy_nav{
+#home_page a#home_nav, #about_page a#about_nav, #achievements_page a#achievements_nav,
+#philosophy_page a#philosophy_nav, #news_page a#news_nav,
+#bio_page a#bio_nav, #contact_page a#contact_nav, #motherhood_page a#motherhood_nav{
   color: #3aa49e;
 }
 
 
 .nav ul li a:visited {
-  color: #555;
+  color: #818287;
 }
 
 .nav ul li a:hover {
   text-decoration: underline;
-  color: #555;
+  color: #3aa49e;
+}
+
+.nav_footer ul li a:hover {
+  text-decoration: underline;
+  color: #3aa49e;
+}
+
+be {
+    color: #3aa49e;
+}
+
+.news_item{
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 2px dotted #ccc;
+    padding-bottom: 15px;
+}
+
+.news_left{
+    float: left;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.news_right{
+    float: left;
+}
+.news_item h1{
+  font-style: italic;
+  border-bottom: 0px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.news_item h2{
+  font-style: italic;
+  border-bottom: 2px dotted #ccc;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 17px;
 }
 
 table {
@@ -185,6 +277,32 @@ th, td {
     border-top: 4px solid #AABCFE;
     color: #003399;
     padding: 8px;
+}
+
+.main_content{
+    padding-left: 140px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.main_content_bio{
+    padding-left: 140px;
+    padding-right: 10px;
+    padding-top: 0px;
+    margin-top: -28px;
+}
+
+.main_sub_content{
+    padding-right: 200px;
+}
+
+.contact li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.contact ul {
+    padding-left: 15px;
 }
 
 /* HOLDING PAGE */

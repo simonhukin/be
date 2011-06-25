@@ -9,9 +9,9 @@ class PagesController < ApplicationController
     @current_page = "about"
   end
 
-  def benefits
-    @title = "Benefits"
-    @current_page = "benefits"
+  def achievements
+    @title = "Achievements"
+    @current_page = "achievements"
   end
 
   def philosophy
@@ -19,9 +19,9 @@ class PagesController < ApplicationController
     @current_page = "philosophy"
   end
 
-  def testimonials
-    @title = "Testimonials"
-    @current_page = "testimonials"
+  def news
+    @title = "News"
+    @current_page = "news"
   end
 
   def bio
@@ -34,9 +34,9 @@ class PagesController < ApplicationController
     @current_page = "contact"
   end
 
-  def pregnancy
-    @title = "Pregnancy"
-    @current_page = "pregnancy"
+  def motherhood
+    @title = "Motherhood"
+    @current_page = "motherhood"
   end
 
 end

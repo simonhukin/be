@@ -1,12 +1,39 @@
-<div id="blog_footer">
-  Click <a href="http://www.be-coaching/blog/">here</a> to read the <i>be</i>
-  blog. <br />This is where I express my <br />values, experiences and some <br />of what
-  I’ve learnt.
+
+<div class="section">
+<div class="nav_footer">
+  <ul id="<%= @current_page %>_page">
+    <li><%= link_to "about", about_path, :id => "about_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li><%= link_to "philosophy", philosophy_path, :id => "philosophy_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li><%= link_to "achievements", achievements_path, :id => "achievements_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li><%= link_to "bio", bio_path, :id => "bio_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li><%= link_to "motherhood", motherhood_path, :id => "motherhood_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li><%= link_to "news & events", news_path, :id => "news_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li><%= link_to "contact", contact_path, :id => "contact_nav" %></li>
+    <li><%= nav_dot %></li>
+    <li>
+    <a href="http://www.facebook.com/pages/Be-Career-and-Transition-Coaching/114332608618327">
+       facebook
+    </a>
+    </li>
+    <li><%= nav_dot %></li>
+    <li>
+    <a href="http://www.facebook.com/pages/Be-Career-and-Transition-Coaching/114332608618327">
+       blog
+    </a>
+    </li>
+    <li><%= nav_dot %></li>
+    <li>
+      &nbsp;<i><b>be</b></i> copywright 2011
+    </li>
+  </ul>
 </div>
-<div id="fb_footer">
-  <a href="http://www.facebook.com/becoaching/join/" alt="be Facebook
-  group">Join the <i>be</i> &nbsp;<%= facebook_icon%> <br />&nbsp;facebook group&nbsp;</a>
-</div>
-<div id="copy_footer">
-  <%= logo_icon %> © <i>be</i> Coaching 2011
+  <div class="developed_by">
+    Website developed by eightacross.com
+  </div>
 </div>

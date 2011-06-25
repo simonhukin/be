@@ -4,12 +4,12 @@ Be::Application.routes.draw do
 
   match '/home', :to => 'pages#home'
   match '/about', :to => 'pages#about'
-  match '/benefits', :to => 'pages#benefits'
+  match '/achievements', :to => 'pages#achievements'
   match '/philosophy', :to => 'pages#philosophy'
-  match '/testimonials', :to => 'pages#testimonials'
+  match '/news', :to => 'pages#news'
   match '/bio', :to => 'pages#bio'
   match '/contact', :to => 'pages#contact'
-  match '/pregnancy', :to => 'pages#pregnancy'
+  match '/motherhood', :to => 'pages#motherhood'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
