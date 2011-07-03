@@ -121,6 +121,8 @@ section h1 {
 a {
   color: #818287;
   text-decoration: none;
+  outline: 0;
+
 }
 
 a:hover {
