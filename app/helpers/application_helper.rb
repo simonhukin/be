@@ -56,6 +56,10 @@ module ApplicationHelper
     @news_2 = image_tag("icfm.jpg", :alt => "icfm")
   end
 
+  def eightacross
+    @eightacross = image_tag("8ad_logo_white.png", :alt => "eight across digital")
+  end
+
   #return a title on a per page basis
   def title
     base_title = "be Coaching"

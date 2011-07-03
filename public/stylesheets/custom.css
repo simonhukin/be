@@ -200,8 +200,19 @@ a:visited {
   color: #818287;
 }
 
-.developed_by{
+.developed_by {
     padding: 20px;
+    font-size: 12px;
+}
+
+.developed_by img {
+    float: left;
+    margin-left: 10px;
+}
+
+.d_text {
+    float: left;
+    margin-left: 300px;
 }
 
 .testimonials li {
