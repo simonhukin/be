@@ -348,7 +348,7 @@ th, td {
     text-decoration: none;
 }
 
-.about-list li{
+#about-list li{
     margin-top: 2px;
     margin-bottom: 2px;
 }
