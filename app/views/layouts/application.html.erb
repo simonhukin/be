@@ -5,6 +5,17 @@
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
     <link rel="icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/f7e49e46a4c5c7d4df357f58d7bf769c?s=16" sizes="16x16" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25877315-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
   <body>
     <!-- BACKGROUND FOR EXPANDABLE HEADER -->
