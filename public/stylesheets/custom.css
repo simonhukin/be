@@ -347,3 +347,8 @@ th, td {
 .holding-buttons a{
     text-decoration: none;
 }
+
+.about-list li{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
