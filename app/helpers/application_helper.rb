@@ -69,5 +69,14 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
-  
+
+#  #return a meta tag on a per page basis
+#   def meta
+#    base_meta = "Life Coaching, Sydney"
+#    if @meta.nil?
+#      base_meta
+#    else
+#      "#{base_meta}, #{@meta}"
+#    end
+#  end
 end

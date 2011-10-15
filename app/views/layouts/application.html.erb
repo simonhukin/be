@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title><%= show_title(@current_page_id).title %></title>
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
     <link rel="icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/f7e49e46a4c5c7d4df357f58d7bf769c?s=16" sizes="16x16" />
@@ -16,6 +16,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <meta name="keywords" content="<%= show_meta(@current_page_id).meta %>" />
   </head>
   <body>
     <!-- BACKGROUND FOR EXPANDABLE HEADER -->
